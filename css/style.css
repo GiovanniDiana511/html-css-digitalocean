@@ -17,8 +17,11 @@ nav {
 
 .btn-default:hover {
     background-color: #0069ff;
-    color: white;
     border-color: #0069ff;
+}
+
+.btn-default:hover strong {
+    color: white;
 }
 
 #logo-brand {
@@ -46,10 +49,8 @@ nav {
 }
 
 .home-text {
-    position: absolute;
     color: white;
-    top: 50%
-    bottom: 50%
+    margin-top: 265px;
 }
 
 #home-h1 {
@@ -59,4 +60,33 @@ nav {
 #home-p {
     font-size: 24px;
     opacity: 0.8;
+}
+
+.partners-ul > li {
+    float: left;
+    list-style: none;
+    max-width: 160px;
+}
+
+.partners-ul > li > img {
+    max-height: 80px;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.home-signup {
+    background-color: white;
+    margin-top: 125px;
+    margin-left: 80px;
+    height: 540px;
+    width: 480px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+}
+
+#signup-h2 {
+    padding-top: 50px;
+    font-size: 30px;
+    color: #031b4e;
 }
