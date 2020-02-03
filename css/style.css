@@ -1,0 +1,39 @@
+#sign-up {
+    color: #0069ff;
+    border-color: #0069ff;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #031b4e;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #0069ff;
+}
+
+#logo-brand {
+    height: 30px;
+    width: 170px;
+    object-fit: cover;
+    margin-top: 8px;
+}
+
+#home {
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    height: 800px;
+}
+
+#partners {
+    background-color: #f3f5f9;
+    height: 280px;
+}
+
+#partners-h2 {
+    color: #939eb5;
+    font-size: 18px;
+    margin-top: 50px;
+}
