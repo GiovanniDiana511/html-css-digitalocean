@@ -118,16 +118,23 @@ nav {
 
 #home-p2::before {
     content: "";
-    border: 2px solid black;
-    height: 5px;
-    width: 100px;
+    border: 1px solid #e5e8ed;
+    height: 2px;
+    width: 130px;
+    margin-right: 8px;
+    vertical-align: middle;
+    display: inline-block;
+    color: #e5e8ed;
 }
 
 #home-p2::after {
     content: "";
-    border: 2px solid black;
-    height: 5px;
-    width: 100px;
+    border: 1px solid #e5e8ed;
+    height: 2px;
+    width: 130px;
+    margin-left: 8px;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .btn-home {
@@ -153,7 +160,83 @@ nav {
 }
 
 #solutions {
+    position: absolute;
+    margin-top: 40px;
     font-size: 12px;
     font-weight: bold;
     color: #0069ff;
+    transform: translateX(-50%);
+}
+
+#deploy {
+    height: 814px;
+}
+
+#deploy-h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 120px;
+    color: #031b4e;
+}
+
+#deploy-p {
+    font-size: 20px;
+    color: #4e5f83;
+}
+
+.deploy-items {
+    margin-top: 60px;
+}
+
+.deploy-ul {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.deploy-ul > li {
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #818da6;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #e5e8ed;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+#list-active {
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #0069ff;
+    color: #031b4e;
+}
+
+.deploy-h3-card {
+    font-size: 18px;
+    font-weight: bold;
+    color: #031b4e;
+}
+
+.deploy-p-card {
+    font-size: 16px;
+    color: #4e5f83;
+}
+
+#carousel {
+    height: 1055px;
+    margin-top: 168px;
+    background-color: #f3f5f9;
+}
+
+#carousel-h2 {
+    margin-top: 120px;
+    font-weight: bold;
+    font-size: 36px;
+    color: #031b4e;
+}
+
+#carousel-p {
+    font-size: 20px;
+    color: #4b5c81;
 }
