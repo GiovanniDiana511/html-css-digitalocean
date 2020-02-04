@@ -93,6 +93,18 @@ nav {
     font-weight: bold;
 }
 
+#icon-goo {
+    position: absolute;
+    left: 150px;
+    top: 544px;
+}
+
+#icon-git {
+    position: absolute;
+    left: 370px;
+    top: 544px;
+}
+
 .form-group {
     height: 48px;
     width: 412px;
@@ -193,6 +205,10 @@ nav {
     list-style: none;
 }
 
+.deploy-ul:hover > li {
+    cursor: pointer;
+}
+
 .deploy-ul > li {
     height: 50px;
     font-size: 16px;
@@ -221,11 +237,18 @@ nav {
 .deploy-p-card {
     font-size: 16px;
     color: #4e5f83;
+    margin-bottom: 60px;
+}
+
+.icon-card {
+    height: 40px;
+    width: 40px;
+    color: #0365b0;
+    font-size: 40px;
 }
 
 #carousel {
-    height: 1055px;
-    margin-top: 168px;
+    height: 1100px;
     background-color: #f3f5f9;
 }
 
@@ -239,4 +262,91 @@ nav {
 #carousel-p {
     font-size: 20px;
     color: #4b5c81;
+    margin-bottom: 60px;
+}
+
+#carousel-p2 {
+    font-size: 16px;
+    color: #4b5c81;
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+
+#carousel-icon3 {
+    font-size: 36px;
+}
+
+.business.container {
+    height: 615px;
+}
+
+#business-h2 {
+    color: #031b4e;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.business-h3-card {
+    font-size: 18px;
+    font-weight: bold;
+    color: #031b4e;
+}
+
+.business-p-card {
+    font-size: 16px;
+    color: #4e5f83;
+    margin-bottom: 60px;
+}
+
+.business-icon {
+    font-size: 40px;
+    margin-top: 30px;
+    color: #0365b0;
+}
+
+.anc-business {
+    font-weight: bold;
+}
+
+#table {
+    height: 645px;
+    background-color: #031b4e;
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
+}
+
+#table-h2 {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.table.table-responsive {
+    margin-top: 60px;
+    background-color: transparent !important;
+}
+
+#city {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#country {
+    color: white;
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+#tests {
+    text-align: right;
+}
+
+#tests > a {
+    color: #0ac2d2;
+    font-size: 13px;
+    text-align: right;
+    font-weight: bold;
 }

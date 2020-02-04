@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/0d2fc9df0b.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
         <title>Bootstrap Digital Ocean</title>
@@ -66,8 +67,8 @@
                                 <div>
                                     <p id="home-p2" class="text-center">or sign up with</p>
                                 </div>
-                                <button type="button" class="btn btn-default btn-home">Google</button>
-                                <button type="button" class="btn btn-default btn-home">Github</button>
+                                <button type="button" class="btn btn-default btn-home"><i id="icon-goo" class="fab fa-google"></i>Google</button>
+                                <button type="button" class="btn btn-default btn-home"><i id="icon-git"class="fab fa-github"></i>Github</button>
                                 <p id="home-p3" class="text-center">By signing up you agree to the <a href="#">Terms of Service.</a></p>
                             </form>
                         </div>
@@ -113,30 +114,144 @@
                     </div>
                     <div class="col-md-6">
                         <div class="deploy-card col-md-6">
-
+                            <i class="fas fa-dharmachakra icon-card"></i>
                             <h3 class="deploy-h3-card">Kubernetes in minutes</h3>
                             <p class="deploy-p-card">Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
                         </div>
                         <div class="deploy-card col-md-6">
+                            <i class="fas fa-tint icon-card"></i>
                             <h3 class="deploy-h3-card">Flexible compute types</h3>
                             <p class="deploy-p-card">With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
                         </div>
                         <div class="deploy-card col-md-6">
-                            <h3 class="deploy-h3-card">Flexible compute types</h3>
-                            <p class="deploy-p-card">With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
+                            <i class="fas fa-folder-plus icon-card"></i>
+                            <h3 class="deploy-h3-card">1-Click App Marketplace</h3>
+                            <p class="deploy-p-card">Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.</p>
                         </div>
                         <div class="deploy-card col-md-6">
-                            <h3 class="deploy-h3-card">Flexible compute types</h3>
-                            <p class="deploy-p-card">With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
+                            <i class="fas fa-globe-europe icon-card"></i>
+                            <h3 class="deploy-h3-card">Global availability</h3>
+                            <p class="deploy-p-card">Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more.</p>
                         </div>
                     </div>
                 </div>
             </div>
-
+        </section>
+        <section>
             <div id="carousel" class="container-fluid">
                 <div class="carousel container">
                     <h2 id="carousel-h2" class="text-center">Designed for developers</h2>
                     <p id="carousel-p" class="text-center">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+                    <img src="https://www.digitalocean.com/assets/media/homepage/screenshot-create-kubernetes-cluster-4a930955.jpg" alt="carousel" class="center-block img-responsive">
+                    <p id="carousel-p2" class="text-center">Use Kubernetes to improve availability, scalability, and resource efficiency of your <br>containerized applications.<br><i id="carousel-icon3" class="fas fa-ellipsis-h"></i></p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="business" class="container-fluid">
+                <div class="business container">
+                    <h2 id="business-h2" class="text-center">Built for business</h2>
+                    <div class="business-card col-md-3">
+                        <i class="fas fa-shield-alt business-icon"></i>
+                        <h3 class="business-h3-card">Reliable platform</h3>
+                        <p class="business-p-card">More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
+                        <br>
+                        <a class="anc-business"href="#">Security ></a>
+                    </div>
+                    <div class="business-card col-md-3">
+                        <i class="far fa-file-excel business-icon"></i>
+                        <h3 class="business-h3-card">Predictable pricing</h3>
+                        <p class="business-p-card">Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.</p>
+                        <br>
+                        <a class="anc-business"href="#">Pricing ></a>
+                    </div>
+                    <div class="business-card col-md-3">
+                        <i class="fas fa-headset business-icon"></i>
+                        <h3 class="business-h3-card">World-class service</h3>
+                        <p class="business-p-card">Free around-the-clock technical support for all customers, with additional benefits for premium support subscribers. You’ll feel the love.</p>
+                        <a class="anc-business"href="#">Support ></a>
+                    </div>
+                    <div class="business-card col-md-3">
+                        <i class="far fa-address-card business-icon"></i>
+                        <h3 class="business-h3-card">Security and compliance</h3>
+                        <p class="business-p-card">Keep your data protected. Our platform is certified on multiple international standards, including SOC 1 Type II, SOC 2 Type II, ISO/IEC 27001, and PCI-DSS.</p>
+                        <a class="anc-business"href="#">Compliance ></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="table" class="container-fluid">
+                <div class="table container">
+                    <h2 id="table-h2" class="text-center">Service your customers around the world<br>from 12 data centers.</h2>
+                    <div class="col-md-6">
+                        <table class="table table-responsive">
+                            <tr>
+                                <td id="city">AMS2</td>
+                                <td id="country">Amsterdam, Netherlands</td>
+                                <td id="tests"><a href="#">Test Speed ></a></td>
+                            </tr>
+                            <tr>
+                                <td id="city">AMS3</td>
+                                <td id="country">Amsterdam, Netherlands</td>
+                                <td id="tests"><a href="#">Test Speed ></a></td>
+                            </tr>
+                            <tr>
+                                <td id="city">BLR1</td>
+                                <td id="country">Bangalore, India</td>
+                                <td id="tests"><a href="#">Test Speed ></a></td>
+                            </tr>
+                            <tr>
+                                <td id="city">FRA1</td>
+                                <td id="country">Frankfurt, Germany</td>
+                                <td id="tests"><a href="#">Test Speed ></a></td>
+                            </tr>
+                            <tr>
+                                <td id="city">LON1</td>
+                                <td id="country">London, UK</td>
+                                <td id="tests"><a href="#">Test Speed ></a></td>
+                            </tr>
+                            <tr>
+                                <td id="city">NYC1</td>
+                                <td id="country">New York, USA</td>
+                                <td id="tests"><a href="#">Test Speed ></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <table class="table table-responsive">
+                        <tr>
+                            <td id="city">NYC2</td>
+                            <td id="country">New York, USA</td>
+                            <td id="tests"><a href="#">Test Speed ></a></td>
+                        </tr>
+                        <tr>
+                            <td id="city">NYC3</td>
+                            <td id="country">New York, USA</td>
+                            <td id="tests"><a href="#">Test Speed ></a></td>
+                        </tr>
+                        <tr>
+                            <td id="city">SFO1</td>
+                            <td id="country">San Francisco, USA</td>
+                            <td id="tests"><a href="#">Test Speed ></a></td>
+                        </tr>
+                        <tr>
+                            <td id="city">SFO2</td>
+                            <td id="country">San Francisco, USA</td>
+                            <td id="tests"><a href="#">Test Speed ></a></td>
+                        </tr>
+                        <tr>
+                            <td id="city">SGP1</td>
+                            <td id="country">Singapore</td>
+                            <td id="tests"><a href="#">Test Speed ></a></td>
+                        </tr>
+                        <tr>
+                            <td id="city">TOR1</td>
+                            <td id="country">Toronto, Canada</td>
+                            <td id="tests"><a href="#">Test Speed ></a></td>
+                        </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
         </section>
