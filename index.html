@@ -42,13 +42,13 @@
         <section id="home" class="container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="home-text">
                             <h1 id="home-h1"><strong>Welcome to the developer cloud</strong></h1>
                             <p class="text-left" id="home-p">We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="home-signup">
                             <form>
                                 <h2 id="signup-h2" class="text-center">Deploy in seconds</h2>
@@ -89,10 +89,12 @@
                         <li><img src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="slack" class="img-responsive"></li>
                         <li><img src="https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png" alt="hashicorp" class="img-responsive"></li>
                         <li><img src="https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png" alt="wework" class="img-responsive"></li>
-                        <li><img src="https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png" alt="splunk" class="img-responsive"></li>
+                        <li id="splunk"><img src="https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png" alt="splunk" class="img-responsive"></li>
                     </ul>
                 </div>
-                <p class="text-center"><a id="solutions" href="#">See business solutions ></a></p>
+                <div class="row">
+                    <p id="solutions-p" class="text-center"><a id="solutions" href="#">See business solutions ></a></p>
+                </div>
             </div>
         </section>
 
@@ -103,7 +105,7 @@
                     <p id="deploy-p" class="text-center">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
                 </div>
                 <div class="row deploy-items">
-                    <div class="col-md-6">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
                         <ul class="deploy-ul">
                             <li id="list-active">Deploy</li>
                             <li>Scale</li>
@@ -113,22 +115,22 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <div class="deploy-card col-md-6">
+                        <div class="deploy-card col-xs-12 col-sm-3 col-md-6">
                             <i class="fas fa-dharmachakra icon-card"></i>
                             <h3 class="deploy-h3-card">Kubernetes in minutes</h3>
                             <p class="deploy-p-card">Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
                         </div>
-                        <div class="deploy-card col-md-6">
+                        <div class="deploy-card col-xs-12 col-sm-3 col-md-6">
                             <i class="fas fa-tint icon-card"></i>
                             <h3 class="deploy-h3-card">Flexible compute types</h3>
                             <p class="deploy-p-card">With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
                         </div>
-                        <div class="deploy-card col-md-6">
+                        <div class="deploy-card col-xs-12 col-sm-3 col-md-6">
                             <i class="fas fa-folder-plus icon-card"></i>
                             <h3 class="deploy-h3-card">1-Click App Marketplace</h3>
                             <p class="deploy-p-card">Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.</p>
                         </div>
-                        <div class="deploy-card col-md-6">
+                        <div class="deploy-card col-xs-12 col-sm-3 col-md-6">
                             <i class="fas fa-globe-europe icon-card"></i>
                             <h3 class="deploy-h3-card">Global availability</h3>
                             <p class="deploy-p-card">Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more.</p>
@@ -137,6 +139,7 @@
                 </div>
             </div>
         </section>
+
         <section>
             <div id="carousel" class="container-fluid">
                 <div class="carousel container">
@@ -147,31 +150,32 @@
                 </div>
             </div>
         </section>
+
         <section>
             <div id="business" class="container-fluid">
                 <div class="business container">
                     <h2 id="business-h2" class="text-center">Built for business</h2>
-                    <div class="business-card col-md-3">
+                    <div class="business-card col-xs-12 col-sm-3 col-md-3">
                         <i class="fas fa-shield-alt business-icon"></i>
                         <h3 class="business-h3-card">Reliable platform</h3>
                         <p class="business-p-card">More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
                         <br>
                         <a class="anc-business"href="#">Security ></a>
                     </div>
-                    <div class="business-card col-md-3">
+                    <div class="business-card col-xs-12 col-sm-3 col-md-3">
                         <i class="far fa-file-excel business-icon"></i>
                         <h3 class="business-h3-card">Predictable pricing</h3>
                         <p class="business-p-card">Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.</p>
                         <br>
                         <a class="anc-business"href="#">Pricing ></a>
                     </div>
-                    <div class="business-card col-md-3">
+                    <div class="business-card col-xs-12 col-sm-3 col-md-3">
                         <i class="fas fa-headset business-icon"></i>
                         <h3 class="business-h3-card">World-class service</h3>
                         <p class="business-p-card">Free around-the-clock technical support for all customers, with additional benefits for premium support subscribers. You’ll feel the love.</p>
                         <a class="anc-business"href="#">Support ></a>
                     </div>
-                    <div class="business-card col-md-3">
+                    <div class="business-card col-xs-12 col-sm-3 col-md-3">
                         <i class="far fa-address-card business-icon"></i>
                         <h3 class="business-h3-card">Security and compliance</h3>
                         <p class="business-p-card">Keep your data protected. Our platform is certified on multiple international standards, including SOC 1 Type II, SOC 2 Type II, ISO/IEC 27001, and PCI-DSS.</p>
@@ -180,6 +184,7 @@
                 </div>
             </div>
         </section>
+
         <section>
             <div id="table" class="container-fluid">
                 <div class="table container">
@@ -297,7 +302,7 @@
                         <div class="col-md-1">
 
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-6 col-md-2">
                             <ul class="list-footer">
                                 <li class="header-list">Company</li>
                                 <li>About</li>
@@ -310,7 +315,7 @@
                                 <li>Legal & Security</li>
                             </ul>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-6 col-md-2">
                             <ul class="list-footer">
                                 <li class="header-list">Products</li>
                                 <li>Products Overview</li>
@@ -327,7 +332,7 @@
                                 <li>Release Notes</li>
                             </ul>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-6 col-md-2">
                             <ul class="list-footer">
                                 <li class="header-list">Community</li>
                                 <li>Tutorials</li>
@@ -342,7 +347,7 @@
                                 <li>Open Source</li>
                             </ul>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-6 col-md-2">
                             <ul class="list-footer">
                                 <li class="header-list">Solutions</li>
                                 <li>Web & Mobile Apps</li>
@@ -352,7 +357,7 @@
                                 <li>Business Solutions</li>
                             </ul>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-6 col-md-2">
                             <ul class="list-footer">
                                 <li class="header-list">Company</li>
                                 <li>Get Support</li>

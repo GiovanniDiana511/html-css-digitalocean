@@ -34,12 +34,10 @@ nav {
 #home {
     margin-top: 50px;
     background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
-    height: 800px;
 }
 
 #partners {
     background-color: #f3f5f9;
-    height: 280px;
 }
 
 #partners-h2 {
@@ -74,10 +72,15 @@ nav {
     padding-top: 15px;
 }
 
+#splunk {
+    padding-top: 12px;
+}
+
 .home-signup {
     background-color: white;
     margin-top: 125px;
     margin-left: 80px;
+    margin-bottom: 125px;
     height: 540px;
     width: 480px;
     padding-left: 25px;
@@ -172,16 +175,15 @@ nav {
 }
 
 #solutions {
-    position: absolute;
-    margin-top: 40px;
     font-size: 12px;
     font-weight: bold;
     color: #0069ff;
     transform: translateX(-50%);
 }
 
-#deploy {
-    height: 814px;
+#solutions-p {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #deploy-h2 {
@@ -248,7 +250,6 @@ nav {
 }
 
 #carousel {
-    height: 1100px;
     background-color: #f3f5f9;
 }
 
@@ -274,10 +275,6 @@ nav {
 
 #carousel-icon3 {
     font-size: 36px;
-}
-
-.business.container {
-    height: 615px;
 }
 
 #business-h2 {
@@ -306,12 +303,15 @@ nav {
     color: #0365b0;
 }
 
+.business-card {
+    padding-bottom: 60px;
+}
+
 .anc-business {
     font-weight: bold;
 }
 
 #table {
-    height: 645px;
     background-color: #031b4e;
     background-image: url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
 }
@@ -325,6 +325,7 @@ nav {
 
 .table.table-responsive {
     margin-top: 60px;
+    margin-bottom: 60px;
     background-color: transparent !important;
 }
 
@@ -407,7 +408,6 @@ nav {
 
 #bkg-footer {
     background-color: #010e28;
-    height: 730px;
     padding-top: 150px;
 }
 
@@ -445,6 +445,7 @@ nav {
     color: hsla(0,0%,100%,.5);
     font-size: 14px;
     float: left;
+    padding-left: 10px;
 }
 
 #footer-icon {
@@ -452,5 +453,8 @@ nav {
     float: right;
     font-size: 28px;
     padding-left: 300px;
+}
 
+#footer-icon:hover {
+    color: white;
 }
